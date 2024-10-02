@@ -1,0 +1,102 @@
+<!--Mariana Matos 3D 18/09/2024-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibindo a arte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="passo-1" class="passo ativo">
+        <h2>Cena 1: O Encontro</h2>
+        <img src="img/wave-bar.jpg" alt="Bar underground" class="imagem">
+        <p>Você está em um bar underground, envolto em uma atmosfera de mistério. Um artista solitário está no canto, mergulhado em sua pintura.</p>
+        <button class="btn-proximo" data-proximo="2">Falar com Ethan</button>
+        <button class="btn-proximo" data-proximo="3">Observar de longe</button>
+    </div>
+
+    <div id="passo-2" class="passo">
+        <h2>Cena 2: A Aproximação</h2>
+        <p>Você se aproxima e diz a Ethan que sua pintura é impressionante. Ele sorri, surpreso.</p>
+        <button class="btn-proximo" data-proximo="4">Perguntar sobre sua arte</button>
+        <button class="btn-proximo" data-proximo="5">Falar sobre sua vida</button>
+    </div>
+
+    <div id="passo-3" class="passo">
+        <h2>Cena 3: A Observação</h2>
+        <img src="img/ethan.jpg" alt="Observando Ethan" class="imagem">
+        <p>Você decide observar Ethan de longe, sentindo a intensidade de sua arte enquanto a música ecoa ao fundo.</p>
+        <button class="btn-proximo" data-proximo="4">Decidir se aproximar</button>
+        <button class="btn-proximo" data-proximo="6">Continuar observando</button>
+    </div>
+
+    <div id="passo-4" class="passo">
+        <h2>Cena 4: Conversa Profunda</h2>
+        <img src="img/conversando.jpg" alt="Conversa profunda" class="imagem">
+        <p>Você pergunta a Ethan sobre sua arte e ele começa a compartilhar suas histórias e lutas. A conexão entre vocês cresce.</p>
+        <button class="btn-proximo" data-proximo="7">Propor uma colaboração</button>
+        <button class="btn-proximo" data-proximo="8">Agradecer e ir embora</button>
+    </div>
+
+    <div id="passo-5" class="passo">
+        <h2>Cena 5: Revelações Pessoais</h2>
+        <p>Ethan revela que a arte o ajudou a superar seus demônios e fala sobre seu passado conturbado.</p>
+        <button class="btn-proximo" data-proximo="7">Propor uma colaboração</button>
+        <button class="btn-proximo" data-proximo="8">Agradecer e ir embora</button>
+    </div>
+
+    <div id="passo-6" class="passo">
+        <h2>Cena 6: A Escolha de Permanecer</h2>
+        <img src="img/observando.jpg" alt="Escolha de permanecer" class="imagem">
+        <p>Você decide ficar observando e, eventualmente, Ethan se volta e o convida a se juntar a ele.</p>
+        <button class="btn-proximo" data-proximo="2">Falar com Ethan</button>
+    </div>
+
+    <div id="passo-7" class="passo">
+        <h2>Cena 7: A Colaboração</h2>
+        <img src="img/trabalhandojunto.jpg" alt="Colaboração" class="imagem">
+        <p>Vocês decidem trabalhar juntos em uma exposição, onde poderão mostrar suas obras e histórias.</p>
+        <button class="btn-proximo" data-proximo="9">Preparar a exposição</button>
+    </div>
+
+    <div id="passo-8" class="passo">
+        <h2>Cena 8: A Despedida</h2>
+        <img src="img/conversa profunda.jpg" alt="Despedida" class="imagem">
+        <p>Você agradece a Ethan pela conversa, mas sente que perdeu uma oportunidade única de conexão.</p>
+        <button class="btn-proximo" data-proximo="10">Refletir sobre a experiência</button>
+    </div>
+
+    <div id="passo-9" class="passo">
+        <h2>Cena 9: A Noite da Inauguração</h2>
+        <img src="img/inauguraçao.jpg" alt="Noite da Inauguração" class="imagem">
+        <p>A galeria está cheia de pessoas, e a energia é palpável. As obras falam por si mesmas.</p>
+        <button class="btn-proximo" data-proximo="11">Refletir sobre a jornada</button>
+    </div>
+
+    <div id="passo-10" class="passo">
+        <h2>Capítulo 10: O Conflito Interno</h2>
+        <img src="img/confusa.jpg" alt="Conflito interno" class="imagem">
+        <p>Após a exposição, você se questiona se realmente entendeu Ethan e seu sofrimento.</p>
+        <button class="btn-proximo" data-proximo="12">Conversar com Ethan</button>
+        <button class="btn-proximo" data-proximo="8">Agradecer e ir embora</button>
+    </div>
+
+    <div id="passo-11" class="passo">
+        <h2>Capítulo 11: O Desfecho</h2>
+        <p>Vocês conversam sobre suas experiências e como a arte pode curar feridas profundas.</p>
+        <button class="btn-proximo" data-proximo="12">Falar sobre o futuro</button>
+        <button class="btn-proximo" data-proximo="1">Recomeçar</button>
+    </div>
+
+    <div id="passo-12" class="passo">
+        <h2>Capítulo 12: O Legado da Arte</h2>
+        <img src="img/legadodaarte.jpg" alt="Legado da Arte" class="imagem">
+        <p>Vocês percebem que a arte não é apenas uma forma de expressão, mas também um legado que pode ser passado adiante.</p>
+        <button class="btn-proximo" data-proximo="1">Recomeçar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
